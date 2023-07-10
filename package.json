@@ -1,10 +1,11 @@
 {
   "name": "@tos/cli",
-  "version": "1.0.0",
-  "licenses": [{
-    "url": "",
-    "type": "MIT"
-  }
+  "version": "1.1.0",
+  "licenses": [
+    {
+      "url": "",
+      "type": "MIT"
+    }
   ],
   "description": "tos-cli is a command-line interface (CLI) tool for generating project templates. It provides an interactive and customizable way to create projects with ease.",
   "main": "index.js",
@@ -19,8 +20,8 @@
     "jsdoc": "npm run clean:build && jsdoc -c ./jsdoc.json",
     "major": "npm version major"
   },
-
-  "keywords": [ "CLI",
+  "keywords": [
+    "CLI",
     "command-line",
     "project",
     "template",
@@ -66,7 +67,11 @@
     "frontend",
     "backend",
     "full-stack",
-  "nodejs-typescript", "nodejs-javascript", "node.js-typescript", "node.js-javascript"],
+    "nodejs-typescript",
+    "nodejs-javascript",
+    "node.js-typescript",
+    "node.js-javascript"
+  ],
   "author": "Sourav Ganguli <mysganguli@gmail.com>",
   "license": "MIT",
   "dependencies": {
