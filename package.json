@@ -1,6 +1,6 @@
 {
   "name": "tos-cli",
-  "version": "2.3.1",
+  "version": "3.1.0",
   "licenses": [
     {
       "url": "",
@@ -14,10 +14,14 @@
   },
   "scripts": {
     "test": "node dist/index.js",
+    "dev:test": "node lib/index.js",
     "clean:build": "rimraf dist",
     "clean:docs": "rimraf docs",
     "build": "npm run clean:build && babel ./lib --out-dir dist",
-    "jsdoc": "npm run clean:build && jsdoc -c ./jsdoc.json"
+    "jsdoc": "npm run clean:build && jsdoc -c ./jsdoc.json",
+    "publishing": "npx yarn publish",
+    "minor": "npm version minor",
+    "major": "npm version major"
   },
   "keywords": [
     "CLI",
@@ -75,8 +79,7 @@
   "license": "MIT",
   "dependencies": {
     "fs": "^0.0.1-security",
-    "fs-extra": "^11.1.1",
-    "inquirer": "^9.2.7",
+    "inquirer": "8.0.0",
     "ncp": "^2.0.0",
     "path": "^0.12.7",
     "util": "^0.12.5"
