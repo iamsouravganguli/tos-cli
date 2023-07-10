@@ -5,3 +5,4 @@ jsdoc.json
 .babelrc
 .idea
 .github
+package-lock.json
