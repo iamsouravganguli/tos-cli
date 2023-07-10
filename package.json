@@ -1,7 +1,12 @@
 {
   "name": "tos-cli",
   "version": "1.0.0",
-  "description": "",
+  "licenses": [{
+    "url": "",
+    "type": "MIT"
+  }
+  ],
+  "description": "tos-cli is a command-line interface (CLI) tool for generating project templates. It provides an interactive and customizable way to create projects with ease.",
   "main": "index.js",
   "bin": {
     "tos-cli": "dist/index.js"
@@ -15,7 +20,53 @@
     "major": "npm version major"
   },
 
-  "keywords": [],
+  "keywords": [ "CLI",
+    "command-line",
+    "project",
+    "template",
+    "generator",
+    "JavaScript",
+    "TypeScript",
+    "npm",
+    "yarn",
+    "pnpm",
+    "development",
+    "tool",
+    "code",
+    "scaffolding",
+    "automation",
+    "interactive",
+    "customizable",
+    "package",
+    "dependency",
+    "library",
+    "framework",
+    "starter",
+    "boilerplate",
+    "modern",
+    "quick",
+    "efficient",
+    "simple",
+    "beginner-friendly",
+    "workflow",
+    "modular",
+    "configurable",
+    "cross-platform",
+    "build",
+    "test",
+    "lint",
+    "deploy",
+    "setup",
+    "utility",
+    "developer",
+    "productivity",
+    "integration",
+    "node",
+    "web",
+    "frontend",
+    "backend",
+    "full-stack",
+  "nodejs-typescript", "nodejs-javascript", "node.js-typescript", "node.js-javascript"],
   "author": "Sourav Ganguli <mysganguli@gmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -36,5 +87,14 @@
     "rimraf": "^5.0.1",
     "taffydb": "^2.7.3"
   },
-  "files": [""]
+  "bugs": {
+    "url": "https://github.com/iamsouravganguli/tos-cli/issues",
+    "email": "mysganguli@gmail.com"
+  },
+  "homepage": "https://github.com/iamsouravganguli/tos-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamsouravganguli/tos-cli"
+  },
+  "readme": "README.md"
 }
