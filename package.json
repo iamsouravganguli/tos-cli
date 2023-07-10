@@ -14,6 +14,7 @@
     "jsdoc": "npm run clean:build && jsdoc -c ./jsdoc.json",
     "major": "npm version major"
   },
+
   "keywords": [],
   "author": "Sourav Ganguli <mysganguli@gmail.com>",
   "license": "MIT",
@@ -34,5 +35,6 @@
     "prettier": "^2.2.1",
     "rimraf": "^5.0.1",
     "taffydb": "^2.7.3"
-  }
+  },
+  "files": [""]
 }
