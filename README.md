@@ -1,6 +1,6 @@
-## Own-Cli
+## tos-cli
 
-**Own-Cli** is a command-line interface (CLI) tool for generating project templates. It provides an interactive and customizable way to create projects with ease.
+**tos-cli** is a command-line interface (CLI) tool for generating project templates. It provides an interactive and customizable way to create projects with ease.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
@@ -17,37 +17,37 @@
 
 ## Installation
 
-Before using **Own-Cli**, ensure that you have Node.js installed on your system. You can install Node.js from [here](https://nodejs.org).
+Before using **tos-cli**, ensure that you have Node.js installed on your system. You can install Node.js from [here](https://nodejs.org).
 
-To install **Own-Cli** globally, open your terminal and run the following command:
+To install **tos-cli** globally, open your terminal and run the following command:
 
 ```bash
-npm install -g own-cli
+npm install -g tos-cli
 ```
 ```bash
-yarn global add own-cli
+yarn global add tos-cli
 ```
 
 ## Usage
-To generate a new project using Own-Cli, follow these steps:
+To generate a new project using tos-cli, follow these steps:
 
 1. Open your terminal.
 2. Navigate to the directory where you want to create the project.
 3. Run the following command:
 ```bash
-own-cli
+tos-cli
 ```
 If the above command doesn't work, you can try using npx:
 
 ```bash
-npx own-cli
+npx tos-cli
 ```
 1. You will be prompted with a series of questions to provide project details. Answer the prompts accordingly.
-2. Once you have provided all the required information, Own-Cli will generate the project in the current directory with the specified details and dependencies.
+2. Once you have provided all the required information, tos-cli will generate the project in the current directory with the specified details and dependencies.
 ## Contributing
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue on the GitHub repository.
 
-Pull requests are also appreciated. To contribute to Own-Cli, please follow the guidelines outlined in the CONTRIBUTING.md file.
+Pull requests are also appreciated. To contribute to tos-cli, please follow the guidelines outlined in the CONTRIBUTING.md file.
 
 
 ## License
