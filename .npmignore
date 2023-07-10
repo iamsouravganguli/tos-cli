@@ -4,3 +4,4 @@ node_modules
 jsdoc.json
 .babelrc
 .idea
+.github
