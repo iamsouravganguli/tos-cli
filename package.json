@@ -18,7 +18,7 @@
     "clean:docs": "rimraf docs",
     "build": "npm run clean:build && babel ./lib --out-dir dist",
     "jsdoc": "npm run clean:build && jsdoc -c ./jsdoc.json",
-    "publishing": "npx yarn publish && npm publish"
+    "publishing": "npx yarn publish"
   },
   "keywords": [
     "CLI",
