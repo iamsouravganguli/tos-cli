@@ -1,0 +1,37 @@
+{
+  "name": "own-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "owncli": "dist/index.js"
+  },
+  "scripts": {
+    "test": "node dist/index.js",
+    "clean:build": "rimraf dist",
+    "clean:docs": "rimraf docs",
+    "build": "npm run clean:build && babel ./lib --out-dir dist",
+    "jsdoc": "npm run clean:build && jsdoc -c ./jsdoc.json"
+  },
+  "keywords": [],
+  "author": "Sourav Ganguli <mysganguli@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^8.2.5",
+    "ncp": "^2.0.0",
+    "path": "^0.12.7",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.6",
+    "@babel/core": "^7.22.8",
+    "@babel/preset-env": "^7.22.7",
+    "jsdoc": "^4.0.2",
+    "minami": "^1.2.3",
+    "prettier": "^2.2.1",
+    "rimraf": "^5.0.1",
+    "taffydb": "^2.7.3"
+  }
+}
