@@ -1,5 +1,5 @@
 {
-  "name": "tos-cli",
+  "name": "@tos/cli",
   "version": "1.0.0",
   "licenses": [{
     "url": "",
